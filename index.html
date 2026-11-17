@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VUE SIMPLE LAYOUT</title>
+
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+		<style>
+		header,footer{
+			background: steelBlue;
+			color:white;
+			text-align: center;
+			padding: 15px;
+		}
+</style>
+</head>
+<body>
+
+<body>
+
+   	<div id="x">
+
+   		<header>
+   			<h1>Infoem Software Solution</h1>
+   			
+   		</header>
+
+   		 <image-component></image-component>
+
+
+   		 <footer>
+   			<h1>Infoem Software Solution</h1>
+   		</footer>
+
+
+
+   	</div>
+
+   	<script>
+   		const app=Vue.createApp({})
+
+   		app.component("image-component",{
+
+   			template:`
+
+				<div>
+		        <table border="1"
+		        <tr>
+	        	<td>
+
+	            <td>				
+	            <h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="800"></h1>
+	            </td>
+
+				<td>				
+				<h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="800"></h1>
+				</tr>
+				</td>
+				</div>
+
+				<div>
+		        <table border="1"
+		        <tr>
+	        	<td>
+
+	            <td>				
+	            <h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="500"></h1>
+	            </td>
+
+	            <td>				
+	            <h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="500"></h1>
+	            </td>
+
+				<td>				
+				<h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="500"></h1>
+				</tr>
+				</td>
+				</div>
+
+				<div>
+		        <table border="1"
+		        <tr>
+	        	<td>
+
+	            <td>				
+	            <h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="500"></h1>
+	            </td>
+
+	            <td>				
+	            <h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="500"></h1>
+	            </td>
+
+				<td>				
+				<h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="500"></h1>
+				</tr>
+				</td>
+				</div>
+
+
+				<div>
+		        <table border="1"
+		        <tr>
+	        	<td>
+
+	            <td>				
+	            <h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="800"></h1>
+	            </td>
+
+				<td>				
+				<h1><img 
+				src="https://wallpaperaccess.com/full/14763054.jpg"
+				width="800"></h1>
+				</tr>
+				</td>
+				</div>
+
+
+
+
+
+
+   				`
+   		})
+
+   		app.mount("#x")
+   	</script>
+
+
+</body>
+</html>
